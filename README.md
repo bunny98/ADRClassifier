@@ -2,7 +2,8 @@
 
 The file FullDataset.txt contains annotated tweets in the following form:
 
-<Tweet ID>\t<User ID>\t<Class>\t<Tweet>
+# Tweet ID \t User_ID \t Class \t Tweet
+where \t represents a tab space 
 
 Class Label: 
 0 for NoADR
