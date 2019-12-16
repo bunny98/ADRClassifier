@@ -1,12 +1,11 @@
-# ADRClassifier
+# ADR Classifier
 
-The file FullDataset.txt contains annotated tweets in the following form:
+The file **Full_Dataset.txt** contains manually annotated tweets. 
+Representation format:
 
-# Tweet ID \t User_ID \t Class \t Tweet
-where \t represents a tab space 
+> **Tweet_ID** \t **UserID** \t **Class** \t **TweetA** 
+>A class of **0** represents **noADR**
+	A class of **1** represents **ADR**
 
-Class Label: 
-0 for NoADR
-1 for ADR
-
-A SVM Classifier was fit on the above data after preprocessing, giving a F1-score of 0.5.
+SVM Classifier was fit onto this data to get a F-score of 0.5
+See, if you can improve it. 
