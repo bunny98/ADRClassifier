@@ -9,4 +9,4 @@ Class Label:
 0 for NoADR
 1 for ADR
 
-An SVM Classifier was fit on the above data after preprocessing, giving a F1-score of 0.5.
+A SVM Classifier was fit on the above data after preprocessing, giving a F1-score of 0.5.
